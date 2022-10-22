@@ -18,28 +18,26 @@ program
 program
     .command("url")
     .argument("<type>", "encode|decode")
-    .argument("<input>", "String to encode or decode")
+    .argument("<input...>", "String to encode or decode")
     .description("URL encode/decode a string")
-    .action((type) => {
-        const input = process.argv.slice(4).join(" ");
+    .action((type, input) => {
         if (type === "encode") {
-            urlEncode(input);
+            urlEncode(input.join(" "));
         } else {
-            urlDecode(input);
+            urlDecode(input.join(" "));
         }
     });
 
 program
     .command("html")
     .argument("<type>", "encode|decode")
-    .argument("<input>", "String to encode or decode")
+    .argument("<input...>", "String to encode or decode")
     .description("HTML encode/decode a string")
-    .action((type) => {
-        const input = process.argv.slice(4).join(" ");
+    .action((type, input) => {
         if (type === "encode") {
-            htmlEncode(input);
+            htmlEncode(input.join(" "));
         } else {
-            htmlDecode(input);
+            htmlDecode(input.join(" "));
         }
     });
 
