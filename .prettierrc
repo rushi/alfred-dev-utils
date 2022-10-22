@@ -1,0 +1,14 @@
+{
+    "semi": true,
+    "printWidth": 120,
+    "trailingComma": "all",
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "useTabs": false,
+    "arrowParens": "always",
+    "bracketSameLine": false,
+    "tabWidth": 4,
+    "importOrderSortSpecifiers": true,
+    "importOrderCaseInsensitive": true,
+    "importOrder": ["^@fullcalendar/(.*)", "^@/(.*)$", "^[./]"]
+}

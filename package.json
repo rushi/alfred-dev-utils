@@ -1,0 +1,36 @@
+{
+    "name": "@xola/devutils",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Dev utils to convert data from one format to another",
+    "main": "app.js",
+    "scripts": {
+        "postinstall": "alfy-init",
+        "preuninstall": "alfy-cleanup"
+    },
+    "keywords": [
+        "alfred",
+        "converter",
+        "objectid",
+        "html",
+        "url"
+    ],
+    "author": {
+        "name": "Rushi Vishavadia",
+        "email": "rushi@hey.com",
+        "url": "http://rushi.vishavadia.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "alfy": "^1.0.0",
+        "bson-objectid": "^2.0.3",
+        "chrono-node": "^2.4.1",
+        "commander": "^9.4.1",
+        "dayjs": "^1.11.6",
+        "html-entities": "^2.3.3",
+        "lodash-es": "^4.17.21"
+    },
+    "devDependencies": {
+        "prettier": "^2.7.1"
+    }
+}
