@@ -33,7 +33,7 @@ program
     .command("html")
     .argument("<type>", "encode|decode")
     .argument("<input>", "String to encode or decode")
-    .description("URL encode/decode a string")
+    .description("HTML encode/decode a string")
     .action((type) => {
         const input = process.argv.slice(4).join(" ");
         if (type === "encode") {
