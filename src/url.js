@@ -1,26 +1,21 @@
 import alfy from "alfy";
+import { line } from "./utils.js";
 
 export const encode = (input) => {
-    const output = [
-        { title: encodeURIComponent(input), subtitle: "URL encode" },
-        { title: encodeURI(input), subtitle: "URL encode (unsafe)" },
-    ];
+    const output = [line(encodeURIComponent(input), "URL encode"), line(encodeURI(input), "URL encode (unsafe)")];
 
     try {
-        output.push({ title: btoa(input), subtitle: "Base64 encode" });
+        output.push(line(btoa(input), "Base64 encode"));
     } catch {}
 
     alfy.output(output);
 };
 
 export const decode = (input) => {
-    const output = [
-        { title: decodeURIComponent(input), subtitle: "URL decode" },
-        { title: decodeURI(input), subtitle: "URL decode (unsafe)" },
-    ];
+    const output = [line(decodeURIComponent(input), "URL decode"), line(decodeURI(input), "URL decode (unsafe)")];
 
     try {
-        output.push({ title: atob(input), subtitle: "Base64 decode" });
+        output.push(line(atob(input), "Base64 decode"));
     } catch {}
 
     alfy.output(output);

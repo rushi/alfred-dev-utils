@@ -5,7 +5,34 @@
 	<key>bundleid</key>
 	<string>com.alfredapp.rushi.devutils</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1383FEAB-C0E2-43FD-A301-883972602104</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F47F2A50-9CE3-4E85-9272-D79A646C429F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Rushi Vishavadia</string>
 	<key>description</key>
@@ -16,6 +43,27 @@
 	<string>Rushi's Dev Utils</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Copied to clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>1383FEAB-C0E2-43FD-A301-883972602104</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -65,6 +113,25 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Alfred's Script Filter object is extremely powerful, and gives you control over the results displayed in Alfred.
@@ -74,6 +141,20 @@ Alfred 3 now supports JSON, which is the recommended format. XML is also support
 A new option now exists for Script Filters, "Alfred filters results". This allows you to return a whole list of results, let Alfred do the subsequent filtering with extreme performance. When this option is selected, your script will be called once with no argument.</string>
 	<key>uidata</key>
 	<dict>
+		<key>1383FEAB-C0E2-43FD-A301-883972602104</key>
+		<dict>
+			<key>xpos</key>
+			<real>590</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</key>
+		<dict>
+			<key>xpos</key>
+			<real>335</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
 		<key>F47F2A50-9CE3-4E85-9272-D79A646C429F</key>
 		<dict>
 			<key>xpos</key>

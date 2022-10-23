@@ -6,12 +6,12 @@ import objectId from "./src/objectid.js";
 import { decode as urlDecode, encode as urlEncode } from "./src/url.js";
 
 program
-    .command("epoch <input>")
+    .command("epoch [input]")
     .description("Convert one date format into epoch time or vice-versa")
     .action((input) => epoch(input));
 
 program
-    .command("objectid <input>")
+    .command("objectid [input]")
     .description("Convert a date into an ObjectId (MongoDB) and vice-versa")
     .action((input) => objectId(input));
 
