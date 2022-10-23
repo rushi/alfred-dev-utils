@@ -43,13 +43,7 @@ program
 
 if (process.env.alfred_version) {
     program.command("help").action(() => {
-        showHelp(program.commands);
-    });
-
-    program.configureHelp({
-        formatHelp() {
-            return showHelp(program.commands, false);
-        },
+        showHelp(program.commands, true);
     });
 }
 

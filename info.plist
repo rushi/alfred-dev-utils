@@ -6,6 +6,19 @@
 	<string>com.alfredapp.rushi.devutils</string>
 	<key>connections</key>
 	<dict>
+		<key>10FF12D4-D53F-41B1-8479-D4EB61B7A1BA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</key>
 		<array>
 			<dict>
@@ -19,7 +32,33 @@
 				<false/>
 			</dict>
 		</array>
-		<key>F47F2A50-9CE3-4E85-9272-D79A646C429F</key>
+		<key>4AF0E0F7-E18E-404F-BD78-A7383BAD0AAF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8803D36A-F99A-4FF0-A642-FFA4BF2D82E0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AE0A2E83-2CF6-4D3C-9AD0-813E3F7D34AD</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -46,6 +85,104 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>du epoch</string>
+				<key>queuedelaycustom</key>
+				<integer>5</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node app.js epoch $1 $2</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Epoch Time - Convert Date to Epoch Time &amp; Vice Versa</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4AF0E0F7-E18E-404F-BD78-A7383BAD0AAF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>du objectid</string>
+				<key>queuedelaycustom</key>
+				<integer>5</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node app.js objectid $1 $2</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>ObjectID - Convert ObjectID to Date &amp; Vice Versa</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>10FF12D4-D53F-41B1-8479-D4EB61B7A1BA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -67,55 +204,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>du</string>
-				<key>queuedelaycustom</key>
-				<integer>5</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>2</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node app.js $1 $2 $3</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Type 'help' for options</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>F47F2A50-9CE3-4E85-9272-D79A646C429F</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -132,6 +220,153 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>du url</string>
+				<key>queuedelaycustom</key>
+				<integer>5</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node app.js url $1 $2</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>URL Encode &amp; Decode</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>AE0A2E83-2CF6-4D3C-9AD0-813E3F7D34AD</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>du html</string>
+				<key>queuedelaycustom</key>
+				<integer>5</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node app.js html $1 $2</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>HTML Encode &amp; Decode</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8803D36A-F99A-4FF0-A642-FFA4BF2D82E0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>du help</string>
+				<key>queuedelaycustom</key>
+				<integer>5</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node app.js help</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Help Options</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>1FCCA0BC-55B4-4EA7-B0AD-66F550ADD237</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Alfred's Script Filter object is extremely powerful, and gives you control over the results displayed in Alfred.
@@ -141,26 +376,54 @@ Alfred 3 now supports JSON, which is the recommended format. XML is also support
 A new option now exists for Script Filters, "Alfred filters results". This allows you to return a whole list of results, let Alfred do the subsequent filtering with extreme performance. When this option is selected, your script will be called once with no argument.</string>
 	<key>uidata</key>
 	<dict>
+		<key>10FF12D4-D53F-41B1-8479-D4EB61B7A1BA</key>
+		<dict>
+			<key>xpos</key>
+			<real>75</real>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
 		<key>1383FEAB-C0E2-43FD-A301-883972602104</key>
 		<dict>
 			<key>xpos</key>
-			<real>590</real>
+			<real>790</real>
 			<key>ypos</key>
-			<real>220</real>
+			<real>215</real>
+		</dict>
+		<key>1FCCA0BC-55B4-4EA7-B0AD-66F550ADD237</key>
+		<dict>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>610</real>
 		</dict>
 		<key>33D97613-E7BC-4A8A-9D58-78CC3AAE42FA</key>
 		<dict>
 			<key>xpos</key>
-			<real>335</real>
+			<real>540</real>
 			<key>ypos</key>
-			<real>225</real>
+			<real>220</real>
 		</dict>
-		<key>F47F2A50-9CE3-4E85-9272-D79A646C429F</key>
+		<key>4AF0E0F7-E18E-404F-BD78-A7383BAD0AAF</key>
 		<dict>
 			<key>xpos</key>
-			<real>175</real>
+			<real>75</real>
 			<key>ypos</key>
-			<real>225</real>
+			<real>50</real>
+		</dict>
+		<key>8803D36A-F99A-4FF0-A642-FFA4BF2D82E0</key>
+		<dict>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>455</real>
+		</dict>
+		<key>AE0A2E83-2CF6-4D3C-9AD0-813E3F7D34AD</key>
+		<dict>
+			<key>xpos</key>
+			<real>75</real>
+			<key>ypos</key>
+			<real>310</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
